@@ -27,6 +27,7 @@ This repository serves as the central digital portal for the Zabibu Technika pro
 | **Phosh.cpp** | Open-source llama.cpp edge adapter | Fuchsia / Violet | https://phosh.vercel.app |
 | **Fikra Edge Runtime** | Proprietary runtime for Fikra models | Fuchsia / Violet | https://zabibufikra.vercel.app |
 | **Zabibu Canary** | Pre-release testing & human-in-the-loop | Amber / Red | https://zabibucanary.vercel.app |
+| **Glipter** | On-device sign language engine (KSL-first, Tier 0) | Sky / Violet | https://glipter.vercel.app |
 | **Fikra Model 1 - 2B** | 2B local/edge model | Fuchsia / Violet | https://zabibufikra.vercel.app |
 | **Fikra Model 2 - 4B** | 4B advanced model | Fuchsia / Violet | https://zabibufikra.vercel.app |
 
@@ -76,7 +77,7 @@ curl -X POST https://zabibu.vercel.app/api/indexnow \
 ## 🎨 Media kit, assets & trust
 
 - `/media-kit` — approved boilerplate, fact sheet, founder bio, brand assets, colours, typography, usage rules, licensing, wallpapers, press contact, and the official tune.
-- `/assets` - the full asset library: wordmarks, app icons, product marks, product social cards, badges, banners, wallpapers, fonts, PDF kits, and both tune mixes, plus a ZIP bundle.
+- `/assets` - the full asset library: wordmarks, app icons, product marks, product social cards, stickers, animated GIFs, badges, banners, wallpapers, fonts, PDF kits, and both tune mixes, plus a ZIP bundle.
 - `/downloads/audio/zabibu-technika-tune.mp3` and `zabibu-technika-tune-extended.mp3` — the official tune.
 - `/trust` — security posture, local-first data sovereignty, responsible AI, and vulnerability disclosure.
 - `/privacy`, `/terms`, `/accessibility`, `/changelog`, `/licenses` — public policy and posterity pages.
@@ -119,6 +120,7 @@ zabibu.com/
 │   ├── ella/                  # Ella App Portal
 │   ├── fikra/                 # Fikra Model 1 - 2B portal
 │   ├── sigana/                # Sigana TV Streaming Portal
+│   ├── glipter/               # Glipter on-device sign language portal
 │   ├── zabibuos/              # Zabibu OS Operating Layer Portal
 │   ├── globals.css            # Global Tailwind & elemental styles
 │   └── page.tsx               # Primary home story & company pitch
